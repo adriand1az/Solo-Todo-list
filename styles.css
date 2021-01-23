@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  margin-bottom: 4vh;
+}
+.title h1 {
+  font-size: 6rem;
+}
+.main-header {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+main {
+  border: 1px black solid;
+  height: 65vh;
+  overflow: auto;
+}
+ul {
+  list-style-type: none;
+}
+.main-content li {
+  line-height: 3;
+  font-size: 1.65rem;
+  border-bottom: 1px solid black;
+}
+
+/* Entering in task */
+.task-input {
+  width: auto;
+  border: 2px solid black;
+  height: 10vh;
+  display: flex;
+}
+
+.task-input input {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 3vh;
+}
+.task-item span {
+  margin-right: 40px;
+}
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+}
